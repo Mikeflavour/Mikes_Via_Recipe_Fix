@@ -1,0 +1,4 @@
+accessWidener v2 official
+
+# The network connection stores which recipe serializers Fabric syncs to this player.
+accessible field net/minecraft/server/network/ServerCommonPacketListenerImpl connection Lnet/minecraft/network/Connection;

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "via_recipe_fix",
+  "version": "${version}",
+  "name": "Mike's Via Recipe Fix",
+  "description": "Server-side: players joining with another Minecraft version through ViaVersion get no Fabric recipe sync, so recipe mods like JEI no longer break the join.",
+  "authors": [
+    "Mikeflavour"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mikesviarecipefix.ViaRecipeFix"
+    ]
+  },
+  "accessWidener": "via_recipe_fix.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "viaversion": "*"
+  },
+  "contact": {
+    "sources": "https://github.com/Mikeflavour/Mikes_Via_Recipe_Fix"
+  }
+}
